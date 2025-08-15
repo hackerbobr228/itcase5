@@ -186,7 +186,7 @@ export default function AppLauncher() {
       background: "bg-gradient-to-br from-gray-50 via-blue-50 to-white",
       loadingBg: "bg-gradient-to-br from-white via-blue-50 to-gray-100",
       header: "bg-white/80 backdrop-blur-md border-b border-blue-200/60 shadow-sm",
-      card: "bg-white/80 backdrop-blur-md border-blue-200/40 hover:border-blue-300/60 shadow-lg",
+      card: "bg-white/90 backdrop-blur-md border-2 border-gray-300/80 hover:border-blue-400/80 shadow-lg hover:shadow-xl",
       footer: "bg-white/80 backdrop-blur-md border-t border-blue-200/40",
       text: {
         primary: "text-gray-900",
