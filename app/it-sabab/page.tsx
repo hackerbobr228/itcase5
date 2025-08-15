@@ -120,7 +120,7 @@ export default function ITSababPage() {
               <div className="flex items-center space-x-3">
                 <div className="w-12 h-12 rounded-full overflow-hidden">
                   <img
-                    src={theme === "dark" ? "/images/itcase-logo-final.png" : "/images/itcase-logo-white-theme.png"}
+                    src="/images/itcase-logo-white-theme.png"
                     alt="itcase logo"
                     className="w-full h-full object-cover"
                   />
@@ -249,14 +249,12 @@ export default function ITSababPage() {
             }`}
           >
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6">
-              <div
-                className={`w-20 h-20 sm:w-28 sm:h-28 rounded-2xl flex items-center justify-center shadow-xl mx-auto sm:mx-0 ${
-                  theme === "dark"
-                    ? "bg-gradient-to-br from-blue-400 via-cyan-300 to-blue-500"
-                    : "bg-gradient-to-br from-blue-500 via-blue-400 to-blue-600"
-                }`}
-              >
-                <span className="text-white font-bold text-3xl sm:text-4xl">IT</span>
+              <div className="w-20 h-20 sm:w-28 sm:h-28 rounded-full flex items-center justify-center mx-auto sm:mx-0 overflow-hidden">
+                <img
+                  src="/images/itcase-logo-white-theme.png"
+                  alt="IT Sabab logo"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="flex-1 text-center sm:text-left">
                 <h1

@@ -180,7 +180,7 @@ export default function AppLauncher() {
         accent: "text-blue-200",
         muted: "text-gray-200",
       },
-      logo: "/images/itcase-logo-final.png",
+      logo: "/images/itcase-logo-white-theme.png",
     },
     light: {
       background: "bg-gradient-to-br from-gray-50 via-blue-50 to-white",
@@ -406,7 +406,7 @@ export default function AppLauncher() {
                       <img
                         src={currentTheme.logo || "/placeholder.svg"}
                         alt={app.name}
-                        className="w-20 h-20 sm:w-24 sm:h-24 object-contain"
+                        className="w-full h-full object-cover"
                       />
                     </div>
                     {/* App Info */}
