@@ -406,7 +406,7 @@ export default function AppLauncher() {
                       <img
                         src={currentTheme.logo || "/placeholder.svg"}
                         alt={app.name}
-                        className="w-full h-full object-cover"
+                        className="w-20 h-20 sm:w-24 sm:h-24 object-contain"
                       />
                     </div>
                     {/* App Info */}
